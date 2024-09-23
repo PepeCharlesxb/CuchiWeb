@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="/img/images.jpeg" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/stylesDef.css">
+    <link rel="stylesheet" href="/styles/styleIndex.css">
+    <style>
+      
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 1</title>
+</head>
+
+<body class="bodyu1">
+    <!--Menu copiado-->
+  <div class="container">
+    <nav class="nav">
+      <h1 class="logo"> <strong>Unidad 1: </strong>Arquitectura De Computadoras</h1>
+      <ul class="nav-menu">
+        <li>
+          <a href="../index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#" class="activo">Unidad 1</a>
+        </li>
+        <li>
+          <a href="indexU2.html">Unidad 2</a>
+        </li>
+        <li>
+          <a href="indexU3.html">Unidad 3</a>
+        </li>
+        <li>
+          <a href="indexU4.html">Unidad 4</a>
+        </li>
+        <li>
+          <a href="./Practicas.html" >Practicas</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+    </header>
+<br><br><br>
+    <div class="mainContainerU2">
+      <h3>1.1 Modelos de Arquitecturas de Computo</h3>
+      <br>
+          <div class="t1">
+             <p>
+              <strong>Modelo Vonn Neumann</strong><br>
+              La unidad central de proceso (CPU),<img src="/img/vonn.jpg" alt=""> está conectada a una memoria principal única (casi siempre sólo RAM) donde se guardan las instrucciones del programa y los datos. A dicha memoria se accede a través de un sistema interconexión de buses único (control, direcciones y datos). En un sistema con arquitectura Von Neumann el tamaño de la unidad de datos o instrucciones está fijado por el ancho del bus que comunica la memoria con la CPU.   El tener un único bus hace que el microprocesador sea más lento en su respuesta, ya que no puede buscar en memoria una nueva instrucción mientras no finalicen las transferencias de datos de la instrucción anterior. Componentes principales de Von Neumann
+
+            </p>
+             
+          </div>
+
+          <div class="t2">
+            <strong>Modelo Harvard</strong><br>
+            <p>
+              Esta arquitectura utiliza los Micro controladores, tiene la unidad central de proceso (CPU) conectada a dos memorias (una con las instrucciones y otra con los datos) por medio de dos buses diferentes. Una de las memorias contiene solamente las instrucciones del programa (Memoria de Programa), y la otra sólo almacena datos (Memoria de Datos). <img src="/img/hardvard.jpg" alt=""> Ambos buses son totalmente independientes lo que permite que la CPU pueda acceder de forma independiente y simultánea a la memoria de datos y a la de instrucciones. El tamaño de las instrucciones no está relacionado con el de los datos, y por lo tanto puede ser optimizado para que cualquier instrucción ocupe una sola posición de memoria de programa, logrando así mayor velocidad y menor longitud de programa. La principal desventaja de esta arquitectura; el bus de datos y direcciones único se convierte en un cuello de botella por el cual debe pasar toda la información que se lee de o se escribe Modelo Harvarda la memoria, obligando a que todos los accesos a esta sean secuenciales. Limita el grado de paralelismo (acciones que se pueden realizar al mismo tiempo) y por lo tanto, el desempeño de la computadora.
+
+
+            </p>
+          </p>
+          </div>
+         
+    
+    </div>
+</body>
+
+</html>
