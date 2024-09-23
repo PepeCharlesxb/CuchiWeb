@@ -195,7 +195,7 @@
 */
 
 .bodyu1 {
-    background: url("/img/imgp.avif");
+    background: url("../img/imgp.avif");
     backdrop-filter: blur(2.4px) brightness(.4);
     background-size: cover;
 
